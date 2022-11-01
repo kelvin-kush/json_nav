@@ -37,7 +37,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CBS'),
+        title: Text('CBS Stories'),
       ),
       body: pages[indexclicked],
       drawer: Drawer(
